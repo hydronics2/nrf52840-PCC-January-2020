@@ -27,7 +27,7 @@ Full parts list on [mouser](https://www.mouser.com/ProjectManager/ProjectDetail.
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/7caps.JPG)
 ## qty(3) capacitors 10uF. POLARITY!!! match the stripe to the negative symbol (-)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/8caps.JPG)
-![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/9cpas.JPG)
+![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/9caps.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/10caps_crystal.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/11caps_crystal.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/12inductor.JPG)
