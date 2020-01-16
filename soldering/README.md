@@ -14,7 +14,7 @@ Full parts list on [mouser](https://www.mouser.com/ProjectManager/ProjectDetail.
 
 
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/1caps.jpg)
-## qty(4) 100nF capacitors. not polarity spacific.
+## qty(4) 100nF capacitors. not polarity specific.
 
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/2caps.JPG)
 
