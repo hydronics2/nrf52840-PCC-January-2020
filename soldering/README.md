@@ -14,14 +14,18 @@ Full parts list on [mouser](https://www.mouser.com/ProjectManager/ProjectDetail.
 
 
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/1caps.jpg)
-## 11 pin header for accelerometer.
+## qty(4) 100nF capacitors. not polarity spacific.
 
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/2caps.JPG)
+
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/3caps.JPG)
+
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/4caps.JPG)
+## push through the PCB, solder, and trim leads
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/5resistor.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/6resistor.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/7caps.JPG)
+## qty(3) capacitors 10uF. POLARITY!!! match the stripe to the negative symbol (-)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/8caps.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/9cpas.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/10caps_crystal.JPG)
@@ -29,10 +33,12 @@ Full parts list on [mouser](https://www.mouser.com/ProjectManager/ProjectDetail.
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/12inductor.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/13inductor.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/14caps.JPG)
-![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/15cpas.JPG)
+## qty(1) capacitors 100uF. POLARITY!!! match the stripe to the negative symbol (-)
+![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/15caps.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/16buttons.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/17buttons.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/18leds.JPG)
+## qty(4) LEDs... any color. POLARITY!!! match the short leg to the flat side on the silkscreen
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/19leds.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/20leds.JPG)
 ![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/21led_resistors.JPG)
