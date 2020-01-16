@@ -1,7 +1,7 @@
 # PCC January 2020 - Soldering and Web BLE tutorial
 This is a soldering and programming class in Circuitpython that includes a Web Ble demo
 
-[![IMAGE ALT TEXT HERE](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/front_pic.JPG)](https://youtu.be/q24QmTUplko)
+[![IMAGE ALT TEXT HERE](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/front_pic1.JPG)](https://youtu.be/q24QmTUplko)
 
 [github.com/hydronics2/nrf52840-PCC-January-2020](https://github.com/hydronics2/nrf52840-PCC-January-2020)
 
@@ -16,8 +16,8 @@ When you connect from USB to your computer it shows up as an external hard drive
 
 [Programming Tutorial](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/programming/README.md)
 
-![alt text](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/top.JPG)
+![alt text](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/top1.JPG)
 
-![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/bottome.JPG)
+![](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/bottome1.JPG)
 
 
