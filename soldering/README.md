@@ -9,7 +9,7 @@ Parts list
 Full parts list on [mouser](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=5d5a690db9).
 
 
-[Link to schematic](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/schematic1.pdf)
+[Link to schematic](https://github.com/hydronics2/nrf52840-PCC-January-2020/blob/master/soldering/pics/schematic.pdf)
 
 
 ![](https://github.com/hydronics2/Teardown-2019/blob/master/soldering/pics/1_headers.JPG)
