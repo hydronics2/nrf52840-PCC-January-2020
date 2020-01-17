@@ -21,3 +21,5 @@ That's it. If everything goes right, the RTHR840BOOT folder will close and a CIR
 Adafruit maintains the hex bootloader [here](https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases)
 
 Adafruit maintains the uf2 circuitpython firmware [here](https://github.com/adafruit/circuitpython/releases)
+
+A bundle of circuitpython libraries can be found [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases)
