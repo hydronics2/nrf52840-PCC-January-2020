@@ -8,9 +8,9 @@ from digitalio import DigitalInOut, Direction, Pull
 
 blueLed = DigitalInOut(board.BLUE_LED)
 blueLed.direction = Direction.OUTPUT
-yellowLed = DigitalInOut(board.D3)
+yellowLed = DigitalInOut(board.D13)
 yellowLed.direction = Direction.OUTPUT
-greenLed = DigitalInOut(board.D13)
+greenLed = DigitalInOut(board.D3)
 greenLed.direction = Direction.OUTPUT
 
 button = DigitalInOut(board.D12)

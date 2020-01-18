@@ -1,3 +1,7 @@
+
+#if your phone or laptop has bluetooh. You can connect to the nrf52840 over bluetooth here
+# https://storage.googleapis.com/thomashudson.org/ble/index.html
+
 import board
 import bleio
 from bleio import Service
@@ -5,17 +9,18 @@ import time
 import digitalio
 from digitalio import DigitalInOut, Direction
 import busio
-import lis3d_sh
-
+import adafruit_lis3dh
 
 i2c = busio.I2C(board.SCL, board.SDA)
-int1 = digitalio.DigitalInOut(board.D6)  # Set to correct pin for interrupt!
-accelerometer = lis3d_sh.LIS3DH_I2C(i2c, address=0x1D, int1=int1)
-accelerometer.range = lis3d_sh.RANGE_2_G
+int1 = digitalio.DigitalInOut(board.D5)  # D5 is connected to the interrupt pin on the accelerometer
+lis3dh = adafruit_lis3dh.LIS3DH_I2C(i2c, int1=int1)
 
 
-redLed = DigitalInOut(board.D13)
-redLed.direction = Direction.OUTPUT
+lis3dh.range = adafruit_lis3dh.RANGE_2_G #options are 2g,4g,8g,16g
+
+
+greenLed = DigitalInOut(board.D3)
+greenLed.direction = Direction.OUTPUT
 
 # Create a Characteristic.
 chara = bleio.Characteristic(bleio.UUID(0x2A37), read=True, notify=True) #heart rate measurement
@@ -29,15 +34,15 @@ periph.start_advertising()
 
 while not periph.connected:
     # Wait for connection.
-    redLed.value = False
+    greenLed.value = False
     periph.start_advertising()
     time.sleep(.5)
     pass
 
 while periph.connected:
-    x, y, z = [value / lis3d_sh.STANDARD_GRAVITY for value in accelerometer.acceleration]
+    x, y, z = [value / adafruit_lis3dh.STANDARD_GRAVITY for value in lis3dh.acceleration]
     print("x = %0.3f G, y = %0.3f G, z = %0.3f G" % (x, y, z))
-    redLed.value = True
+    greenLed.value = True
     xSign = 1
     ySign = 1
     zSign = 1

@@ -1,7 +1,6 @@
 # CircuitPython demo - NeoPixel aka ws2812 Strip LEDs
 
-# On this board, we use A0, 5V, and ground(GND)... see picture as a hookup guide
-#
+# On this board, we use SCK, 5V(VUSB), and ground(GND)... see picture as a hookup guide
 
 # purchase these in 1meter and 5meter strips from adafruit.com, sparkfun.com, or rayWu's aliexpress store
 
@@ -9,10 +8,10 @@ import time
 import board
 import neopixel
 
-pixel_pin = board.A0
+pixel_pin = board.SCK
 num_pixels = 8
 
-pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=False)
+pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.1, auto_write=False)
 
 
 def wheel(pos):
